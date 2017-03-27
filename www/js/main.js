@@ -11,7 +11,5 @@ function checkConnection() {
     states[Connection.CELL]     = 'Cell generic connection';
     states[Connection.NONE]     = 'No network connection';
  
-    document.getElementById("state").innerHTML=states[networkState];
+    alert('Connection type: ' + states[networkState]);
 }
-
-checkConnection();
